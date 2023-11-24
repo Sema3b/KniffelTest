@@ -3,7 +3,7 @@
     private Dictionary<string, int> Scores { get; set; } // Dictionary wird als lokale Variable(?) initiallisiert, Aufbau verstehen.
     public int TotalScore => Scores.Values.Sum(); // Gesamtsumme > Summe Wurfwert
 
-    public ScoreCard() // 3. Methode
+    public ScoreCard() // 3. Methode.
     {
         Scores = new Dictionary<string, int>();
     }
