@@ -3,12 +3,12 @@
     private Dictionary<string, int> Scores { get; set; } // Dictionary wird als lokale Variable(?) initiallisiert, Aufbau verstehen..
     public int TotalScore => Scores.Values.Sum(); // Gesamtsumme > Summe Wurfwert
 
-    public ScoreCard() // 3. Methode.
+    public ScoreCard() // 3. Methode / 7. Methode
     {
         Scores = new Dictionary<string, int>();
     }
 
-    public void AddScore(string category, int score)// ist das schon die 4. Methode?
+    public void AddScore(string category, int score)// 12. Methode
     {
         if (!Scores.ContainsKey(category))
         {

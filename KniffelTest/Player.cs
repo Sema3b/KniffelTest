@@ -3,13 +3,13 @@
     public string Name { get; private set; }
     public ScoreCard ScoreCard { get; private set; }
 
-    public Player(string name) //2. Metode, die aufgerufen wird 
+    public Player(string name) //2. Metode, die aufgerufen wird / 6.Methode / GameController() wird beendet, PlayGame() beginnt
     {
         Name = name;
-        ScoreCard = new ScoreCard(); // 3. Methode, die aufgerufen wird
+        ScoreCard = new ScoreCard(); // 3. Methode, die aufgerufen wird / 7. Methode
     }
 
-    public void ShowScoreCard()
+    public void ShowScoreCard()//8. Methode
     {
         // Anzeige des Gesamtscore
         Console.WriteLine($"{Name}'s Scorecard: {ScoreCard.TotalScore} Punkte\r\n");

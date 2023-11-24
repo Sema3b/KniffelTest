@@ -3,12 +3,12 @@
     public int Value { get; private set; }
     private Random Random { get; set; }
     
-    public Dice()
+    public Dice()//4. Methode / 9.Methode
     {
         Random = new Random();
     }
 
-    public void Roll()
+    public void Roll()// 10. Methode
     {
         Value = Random.Next(1, 7);
     }
