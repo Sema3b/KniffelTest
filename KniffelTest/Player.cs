@@ -41,4 +41,4 @@
         Console.WriteLine("Gesamt (Oben)\t| ############# | ");
         Console.WriteLine("Endsumme\t| ############# | ");        
     }
-}
+}            
